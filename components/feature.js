@@ -111,7 +111,7 @@ export default function FeatureList() {
                     <dt className="h-14 text-base font-semibold leading-7 text-gray-600">
                       {feature_point.title}
                     </dt>
-                    <dd className="mt-1 text-base leading-7 text-gray-600">{feature_point.description}</dd>
+                    <dd className="mt-1 text-base leading-7 text-gray-500">{feature_point.description}</dd>
                   </div>
                 )}
               </dl>
