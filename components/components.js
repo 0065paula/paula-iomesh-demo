@@ -29,7 +29,7 @@ export default function Components() {
   return (
     <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
-            <h2 className="text-3xl md:text-5xl font-bold w-full leading-tight mb-20 text-white/80">
+            <h2 className="text-3xl md:text-5xl font-bold w-full leading-tight sm:mb-20 text-white/80">
             Components
             </h2>
             <p className="mx-auto w-full lg:w-3/5 max-w-full mt-2 text-lg leading-6 text-white/60">

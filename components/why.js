@@ -26,7 +26,7 @@ const why_list = [
 const Why = () => {
   return (
     <div className="sectionContentWrapper grid grid-cols-1 sm:grid-cols-3">
-      <h2 className="text-3xl lg:text-4xl font-bold w-full leading-tight mb-20 col-span-1">
+      <h2 className="text-3xl md:text-5xl font-bold w-full leading-tight mb-20 col-span-1">
       Why IOMesh?
       </h2>
       <dl className="mx-auto grid grid-cols-1 max-w-7xl px-0 lg:px-8 col-span-1 sm:col-span-2 gap-x-6 gap-y-10 text-base leading-7 text-gray-600 md:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-8 lg:gap-y-16">
