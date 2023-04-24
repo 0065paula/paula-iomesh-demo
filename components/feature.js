@@ -101,14 +101,14 @@ export default function FeatureList() {
       </h2>
       <div className="mx-auto max-w-7xl space-y-4 lg:space-y-16">
           {feature_list.map(feature => 
-            <div key={feature.title} className="featureBlock bg-white rounded-2xl mx-auto grid  grid-cols-1 gap-x-8 gap-y-8 p-8 sm:gap-y-6 lg:mx-0 lg:p-12 lg:gap-y-12">
+            <div key={feature.title} className="featureBlock bg-white rounded-2xl mx-auto grid grid-cols-1 gap-x-8 gap-y-8 p-8 sm:gap-y-6 lg:mx-0 lg:p-12 lg:gap-y-12">
               <h2 className=" text-3xl font-bold tracking-tight text-gray-600 lg:text-4xl">
               {feature.title}
               </h2>
               <dl className="col-span-2 grid grid-cols-1 gap-x-16 gap-y-10 sm:grid-cols-2 md:grid-cols-3">
                 {feature.subItems.map(feature_point =>
-                  <div key={feature_point.title}>
-                    <dt className="text-base font-semibold leading-7 text-gray-900">
+                  <div key={feature_point.title} >
+                    <dt className="h-14 text-base font-semibold leading-7 text-gray-900">
                       {feature_point.title}
                     </dt>
                     <dd className="mt-1 text-base leading-7 text-gray-600">{feature_point.description}</dd>

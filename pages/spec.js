@@ -99,7 +99,7 @@ export default function Spec() {
               {tiers.map((tier) => (
                 <div key={tier.id} className="border-t border-gray-900/10">
                   <div
-                    className="-mt-px w-full border-t-2 pt-10"
+                    className="-mt-px w-full pt-10 mt-4 flex flex-col rounded-lg bg-gradient-to-b from-white to-transparent p-6"
                   >
                     <h3
                       className="text-gray-900 text-lg text-center font-semibold leading-6"
@@ -113,7 +113,7 @@ export default function Spec() {
                       </li>                     
                       )}
                     </ul>
-                    <Link href="{tier.href}" ><a className="block w-auto py-2 text-center text-iopurple font-bold hover:text-iopurple-light">{tier.cta}</a></Link>
+                    <Link href="{tier.href}" ><a className="mx-auto w-full min-w-min px-4 py-3 rounded-md text-white text-center font-bold bg-iopurple hover:bg-iopurple-dark">{tier.cta}</a></Link>
                   </div>
 
                   <div className="mt-10 space-y-10">
@@ -183,22 +183,22 @@ export default function Spec() {
               Feature comparison
             </h2>
 
-            <div className="grid grid-cols-3 gap-x-8 border-t border-b pb-8 border-gray-900/10 before:block">
+            <div className="grid grid-cols-3 gap-x-8 border-t border-b pb-4 border-gray-900/10 before:block">
               {tiers.map((tier) => (
-                <div key={tier.id} aria-hidden="true" className="mt-4 flex flex-col">
+                <div key={tier.id} aria-hidden="true" className="mt-4 flex flex-col rounded-lg bg-gradient-to-b from-white to-transparent p-6">
                   <h3
                     className="text-xl font-semibold text-center"
                   >
                     {tier.name}
                   </h3>
-                  <ul className="grow my-4 pl-8 pr-2 pt-2 pb-3 rounded-xl">
+                  <ul className="grow mt-2 mb-4 pl-8 pr-2 pt-2 pb-3 rounded-xl">
                     {tier.highlights.map((highlight) => 
                       <li key={highlight} className="mt-2 text-iopurple text-md">
                         <span className="mr-2 text-xl">✓</span>{highlight}
                       </li>                     
                     )}
                   </ul>
-                  <Link href="{tier.href}" ><a className="block w-auto py-2 text-center text-iopurple font-bold hover:text-iopurple-light">{tier.cta}</a></Link>                  
+                  <Link href="{tier.href}" ><a className="w-full min-w-min px-4 py-3 rounded-md text-white text-center font-bold bg-iopurple hover:bg-iopurple-dark">{tier.cta}</a></Link>                  
                 </div>
               ))}
             </div>
