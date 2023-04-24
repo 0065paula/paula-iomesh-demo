@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/docs/:match*",
+      "destination": "http://iomesh.github.io/docs/:match*"
+    },
+    {
+      "source": "/charts/:match*",
+      "destination": "http://iomesh.github.io/charts/:match*"
+    }
+  ]
+}
