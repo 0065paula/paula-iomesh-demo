@@ -96,7 +96,7 @@ const feature_list = [
 export default function FeatureList() {
   return (
     <div className="sectionContentWrapper">
-      <h2 className="mix-blend-luminosity text-3xl md:text-5xl font-bold w-full leading-tight mb-20 text-gray-700/80">
+      <h2 className="mix-blend-luminosity text-3xl md:text-4xl font-bold w-full leading-tight mb-20 text-gray-700/80">
           Key Features
       </h2>
       <div className="mx-auto max-w-7xl space-y-4 lg:space-y-16">

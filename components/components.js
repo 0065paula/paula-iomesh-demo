@@ -29,7 +29,7 @@ export default function Components() {
   return (
     <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
-            <h2 className="text-3xl md:text-5xl font-bold w-full leading-tight sm:mb-20 text-white/80">
+            <h2 className="text-3xl md:text-4xl font-bold w-full leading-tight sm:mb-20 text-white/80">
             Components
             </h2>
             <p className="mx-auto w-full lg:w-3/5 max-w-full mt-2 text-lg leading-6 text-white/60">
@@ -46,28 +46,28 @@ export default function Components() {
                   <Tab.List className="relative z-10 flex gap-x-4 whitespace-nowrap px-4 mx-auto px-0">
                       {components.map((component, componentIndex) => (
                       <div
-                        key={component.title}
-                        className={clsx(
-                        'group relative rounded-full px-4 py-1',
-                        selectedIndex === componentIndex
-                            ? 'bg-white/10 ring-1 ring-inset ring-white/10'
-                            : 'hover:bg-white/5'
-                        )}
+                          key={component.title}
+                          className={clsx(
+                          'group relative rounded-full px-4 py-1',
+                          selectedIndex === componentIndex
+                              ? 'bg-white/10 ring-1 ring-inset ring-white/10'
+                              : 'hover:bg-white/5'
+                          )}
                       >
-                        <h3>
-                        <Tab
-                            className={clsx(
-                            'font-bold text-lg [&:not(:focus-visible)]:focus:outline-none',
-                            selectedIndex === componentIndex
-                                ? 'text-white outline-none'
-                                : 'text-white/70 hover:text-white'
-                            )}
-                        >
-                            <span className="absolute inset-0 rounded-full" />
-                            {component.title}
-                        </Tab>
-                      </h3>
-                  </div>
+                          <h3>
+                          <Tab
+                              className={clsx(
+                              'font-bold text-lg [&:not(:focus-visible)]:focus:outline-none',
+                              selectedIndex === componentIndex
+                                  ? 'text-white outline-none'
+                                  : 'text-white/70 hover:text-white'
+                              )}
+                          >
+                              <span className="absolute inset-0 rounded-full" />
+                              {component.title}
+                          </Tab>
+                          </h3>
+                      </div>
                       ))}
                   </Tab.List>
                 </div>

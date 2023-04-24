@@ -87,7 +87,7 @@ export default function Home() {
 
       <section className="py-10 md:py-20 bg-white">
         <div className="sectionContentWrapper p-12 grid grid-cols-1 sm:grid-cols-3">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold w-full leading-tight mb-20 col-span-1">
+          <h2 className="ttext-3xl md:text-4xl font-bold w-full leading-tight mb-20 col-span-1">
             Use Cases
           </h2>
           <div className="mx-auto grid grid-cols-1 max-w-7xl px-6 lg:px-8 col-span-1 sm:col-span-2 gap-x-6 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-8 lg:gap-y-16">
@@ -134,7 +134,7 @@ export default function Home() {
       </section>   
       <section className="py-20 bg-white">
         <div className="sectionContentWrapper">
-          <h2 className="block text-3xl md:text-5xl font-bold text-center w-full leading-tight mb-16">
+          <h2 className="block text-3xl md:text-4xl font-bold text-center w-full leading-tight mb-16">
             Architecture
           </h2>
           <p className="mx-auto w-2/3 max-w-full my-6 text-md leading-6 text-gray-500">
