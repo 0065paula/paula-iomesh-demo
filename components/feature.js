@@ -108,7 +108,7 @@ export default function FeatureList() {
               <dl className="col-span-2 grid grid-cols-1 gap-x-16 gap-y-10 sm:grid-cols-2 md:grid-cols-3">
                 {feature.subItems.map(feature_point =>
                   <div key={feature_point.title} >
-                    <dt className="h-14 text-base font-semibold leading-7 text-gray-900">
+                    <dt className="h-14 text-base font-semibold leading-7 text-gray-600">
                       {feature_point.title}
                     </dt>
                     <dd className="mt-1 text-base leading-7 text-gray-600">{feature_point.description}</dd>
