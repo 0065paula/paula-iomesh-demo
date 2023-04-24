@@ -59,7 +59,7 @@ export default function Components() {
                               className={clsx(
                               'font-bold text-lg [&:not(:focus-visible)]:focus:outline-none',
                               selectedIndex === componentIndex
-                                  ? 'text-white'
+                                  ? 'text-iopurple outline-none'
                                   : 'text-white/70 hover:text-white'
                               )}
                           >
