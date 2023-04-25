@@ -193,9 +193,9 @@
   background-size: cover, cover;
 }
 
-/* .firstSectionPage {
+.firstSectionPage {
   @apply pt-36 bg-gradient-to-b from-white to-gray-50;
-} */
+}
 
 /* Feature Section */
 
