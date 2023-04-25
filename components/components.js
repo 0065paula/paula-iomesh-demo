@@ -27,7 +27,7 @@ const components = [
 
 export default function Components() {
   return (
-    <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div className="sectionContentWrapper">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
             <h2 className="text-3xl md:text-4xl font-bold w-full leading-tight mb-14 sm:mb-20 text-white/80">
             Components
