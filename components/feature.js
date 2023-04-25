@@ -99,9 +99,9 @@ export default function FeatureList() {
       <h2 className="mix-blend-luminosity text-3xl md:text-4xl font-bold w-full leading-tight mb-20 text-gray-700/80">
           Key Features
       </h2>
-      <div className="mx-auto max-w-7xl space-y-4 lg:space-y-16">
+      <div className="mx-auto max-w-7xl space-y-8 sm:space-y-4 lg:space-y-16">
           {feature_list.map(feature => 
-            <div key={feature.title} className="featureBlock bg-white rounded-2xl mx-auto grid grid-cols-1 gap-x-8 gap-y-8 p-8 sm:gap-y-6 lg:mx-0 lg:p-12 lg:gap-y-12">
+            <div key={feature.title} className="featureBlock bg-white rounded-2xl mx-auto grid grid-cols-1 gap-x-8 gap-y-8 px-0 sm:p-8 sm:gap-y-6 lg:mx-0 lg:p-12 lg:gap-y-12">
               <h2 className=" text-3xl font-bold tracking-tight text-gray-600 lg:text-4xl">
               {feature.title}
               </h2>

@@ -140,7 +140,7 @@ export default function Spec() {
                                   <dd className="flex items-center justify-end sm:justify-center sm:px-4">
                                     {typeof feature.tiers[tier.name] === 'string' ? (
                                       <span
-                                        className={tier.featured ? 'font-semibold text-indigo-600' : 'text-gray-900'}
+                                        className="text-gray-900 text-right"
                                       >
                                         {feature.tiers[tier.name]}
                                       </span>

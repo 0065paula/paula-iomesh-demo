@@ -34,7 +34,7 @@ export default function Home() {
           content="IOMesh, Cloud Native Storage, Kubernetes Storage, Persistent Storage"
         />
       </Head>
-      <section className="firstSection pt-48 pb-40">
+      <section className="firstSection pt-32 pb-20 sm:pt-48 sm:pb-40">
         <div className="sectionContentWrapper">
           {/* <div className="flex flex-col items-center mb-10">
             <img src="/IOMesh_graph.svg" width={100} height={100} />
@@ -87,11 +87,11 @@ export default function Home() {
 
       <section className="py-10 md:py-20 bg-white">
         <div className="sectionContentWrapper p-12 grid grid-cols-1 sm:grid-cols-3">
-          <h2 className="ttext-3xl md:text-4xl font-bold w-full leading-tight mb-20 col-span-1">
+          <h2 className="text-3xl md:text-4xl font-bold w-full leading-tight mb-20 col-span-1">
             Use Cases
           </h2>
-          <div className="mx-auto grid grid-cols-1 max-w-7xl px-6 lg:px-8 col-span-1 sm:col-span-2 gap-x-6 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-8 lg:gap-y-16">
-            <div className="pl-9 space-y-4 sm:space-y-6 lg:mr-6 relative text-center sm:text-left">
+          <div className="mx-auto grid grid-cols-1 max-w-7xl lg:px-8 col-span-1 sm:col-span-2 gap-x-6 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-8 lg:gap-y-16">
+            <div className="sm:pl-9 space-y-4 sm:space-y-6 lg:mr-6 relative text-center sm:text-left">
               <figure className="flex justify-center md:justify-start">
                 <img src="/CaaS.svg" width={80} height={80} />
               </figure>
@@ -103,7 +103,7 @@ export default function Home() {
                 environments.
               </p>
             </div>
-            <div className="pl-9 space-y-4 sm:space-y-6 lg:mr-6 relative text-center md:text-left">
+            <div className="sm:pl-9 space-y-4 sm:space-y-6 lg:mr-6 relative text-center md:text-left">
               <figure className="flex justify-center md:justify-start">
                 <img src="/DaaS.svg" width={80} height={80} />
               </figure>
@@ -114,7 +114,7 @@ export default function Home() {
                 Ensure node-level high availability with minimal or no downtime.
               </p>
             </div>
-            <div className="pl-9 space-y-4 sm:space-y-6 relative text-center md:text-left">
+            <div className="sm:pl-9 space-y-4 sm:space-y-6 relative text-center md:text-left">
               <figure className="flex justify-center md:justify-start">
                 <img src="/KubeVirt.svg" width={80} height={80} />
               </figure>
@@ -137,7 +137,7 @@ export default function Home() {
           <h2 className="block text-3xl md:text-4xl font-bold text-center w-full leading-tight mb-16">
             Architecture
           </h2>
-          <p className="mx-auto w-2/3 max-w-full my-6 text-md leading-6 text-gray-500">
+          <p className="mx-auto w-full sm:w-2/3 max-w-full my-6 text-md leading-6 text-gray-500">
           IOMesh 可与计算负载部署在同一 Worker 节点上，这种融合部署的形式充分利用了硬件，减少基础设施的空间占用并简化了运维环节。同时，分布式架构消除了传统控制器架构瓶颈，充分发挥新型存储介质性能，提升系统并发性能和弹性扩展能力。
           </p>
           <figure className="flex flex-col items-center">
